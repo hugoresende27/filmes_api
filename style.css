@@ -107,8 +107,15 @@ main {
     bottom: 0;
     right: 0;
     max-height: 100%;
-    transform: translateY(5%);
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.5s ease-in;
 } 
+
+  
+.movie:hover .overview {/*EFEITO QUANDO SE PASSA O RATO POR CIMA DE OVERVIEW, MOSTRA DESCRIÇÃO DO VIDEO*/
+transform: translateY(0);
+}
 
 
 @media(max-width: 480px)        /*para ecras mais pequenos*/
