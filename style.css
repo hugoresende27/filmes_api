@@ -23,41 +23,8 @@
 /*alinhar conteudos ao centro*/
 body
 {
-    background-image: linear-gradient(90deg, #110449, #1a0968);
-    color: #fff;
     font-family: 'Poppins',sans-serif;
-    display: flex;          /*coloca tudo em linha*/
-   flex-direction: column; /*coloca tudo em coluna*/
-    align-items: center;    /*alinha horizontalmente*/
-    justify-content: center;/*alinha tudo verticalmente com uso de height:100vh*/
-    height: 100vh;
-    overflow: hidden;
     margin: 0;
-}
-.btn{
-    background-color: blueviolet;
-    border-radius: 5px;
-    border: none;
-    margin: 1rem;
-    color: white;
-    font-family: inherit;
-    font-size: 1.2rem;
-    padding: 1.5rem 3rem;
-    cursor: pointer;
-}
-
-.btn:focus{
-    outline: none;
-}
-.btn:hover{
-    opacity: 0.8;
-    transform: scale(1.2);
-}
-button{
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 
